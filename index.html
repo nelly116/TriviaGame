@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Css -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <!-- jquery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <title>Isaacs Trivia Game!</title>
+</head>
+
+<body>
+    <div id="splashscreen">
+        <div class="splashBox">
+            <h3>Are You Ready For</h3>
+            <h1>Isaacs Trivia!</h1>
+            <hr />
+            <p>You have 60 seconds to guess 10 questions.</p>
+            <br />
+            <p>Click To Start</p>
+            <button type="button" id="start-btn" class="btn btn-primary black-background white">TRY YOUR LUCK.</button>
+        </div>
+    </div>
+
+    <div id="answerScreen">
+        <div class="splashBox2">
+            <h2>Lets see how you did</h2>
+            <hr />
+            <p id="correctScreen">Correct Answers: </p>
+            <p id="wrongScreen">Wrong Answers: </p>
+        </div>
+    </div>
+
+    <div id="gameScreen"></div>
+
+    <div id="timesUp">
+        <div class="wrongBox">
+            <h2 class="up">Times Up!</h2>
+            <hr />
+            <p>Here's youre score:</p>
+            <p id="correctTimesUp">Correct Answers: </p>
+            <p id="wrongTimesUp">Wrong Answers: </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>Isaacs Trivia!</header>
+        <div class="row timeRemain">Time Remaining:
+            <div id="time-remain">60</div>
+        </div>
+
+        <div class="questions">
+            <button type="button" class="btn btn-primary black-background white" id="sub-but">Submit</button>
+            <!-- end equestions-->
+        </div>
+        
+
+        <!-- </Script> -->
+        <!-- Script -->
+        <script type="text/javascript" src="./assets/javascript/app.js"></script>
+
+</body>
+
+</html>
